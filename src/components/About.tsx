@@ -78,8 +78,8 @@ const About: React.FC = () => {
                       <span className="font-bold text-purple-600">85%</span>
                     </div>
                     <div className="flex justify-between items-center">
-                      <span className="text-gray-700 dark:text-gray-300">Current GPA</span>
-                      <span className="font-bold text-green-600">3.8/4.0</span>
+                      <span className="text-gray-700 dark:text-gray-300">Current CGPA</span>
+                      <span className="font-bold text-green-600">7.94</span>
                     </div>
                   </div>
                 </div>
@@ -88,7 +88,7 @@ const About: React.FC = () => {
               <div className="grid grid-cols-2 gap-4">
                 {[
                   { label: "Projects", value: "15+" },
-                  { label: "Technologies", value: "12+" },
+                  { label: "Technologies", value: "6+" },
                   { label: "Certifications", value: "5+" },
                   { label: "Experience", value: "2+ Years" }
                 ].map((item, index) => (

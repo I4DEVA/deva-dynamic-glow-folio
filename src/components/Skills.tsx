@@ -16,16 +16,14 @@ const Skills: React.FC = () => {
 
   const skills: Skill[] = [
     { name: 'Python', level: 85, category: 'programming', icon: '🐍', color: 'from-green-400 to-blue-500' },
-    { name: 'JavaScript', level: 80, category: 'programming', icon: '⚡', color: 'from-yellow-400 to-orange-500' },
-    { name: 'React', level: 75, category: 'frontend', icon: '⚛️', color: 'from-blue-400 to-cyan-500' },
-    { name: 'HTML/CSS', level: 90, category: 'frontend', icon: '🎨', color: 'from-pink-400 to-red-500' },
-    { name: 'Power BI', level: 80, category: 'data', icon: '📊', color: 'from-purple-400 to-indigo-500' },
-    { name: 'Data Analysis', level: 85, category: 'data', icon: '📈', color: 'from-teal-400 to-green-500' },
-    { name: 'Machine Learning', level: 70, category: 'data', icon: '🤖', color: 'from-indigo-400 to-purple-500' },
-    { name: 'Git', level: 75, category: 'tools', icon: '🔧', color: 'from-gray-400 to-gray-600' },
+    { name: 'MySQL', level: 80, category: 'database', icon: '🗄️', color: 'from-blue-400 to-cyan-500' },
+    { name: 'Power BI', level: 85, category: 'data', icon: '📊', color: 'from-purple-400 to-indigo-500' },
+    { name: 'Frontend Development', level: 75, category: 'frontend', icon: '💻', color: 'from-pink-400 to-red-500' },
+    { name: 'AI Singing', level: 70, category: 'ai', icon: '🎤', color: 'from-indigo-400 to-purple-500' },
+    { name: 'HTML/CSS', level: 90, category: 'frontend', icon: '🎨', color: 'from-orange-400 to-red-500' },
   ];
 
-  const categories = ['all', 'programming', 'frontend', 'data', 'tools'];
+  const categories = ['all', 'programming', 'database', 'data', 'frontend', 'ai'];
 
   const filteredSkills = activeCategory === 'all' 
     ? skills 
@@ -135,7 +133,7 @@ const Skills: React.FC = () => {
               <div>
                 <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">Full-Stack</div>
                 <p className="text-gray-600 dark:text-gray-400">
-                  End-to-end development capabilities
+                  Frontend development capabilities
                 </p>
               </div>
               <div>
@@ -147,7 +145,7 @@ const Skills: React.FC = () => {
               <div>
                 <div className="text-3xl font-bold text-green-600 dark:text-green-400 mb-2">Innovative</div>
                 <p className="text-gray-600 dark:text-gray-400">
-                  Creative problem-solving approach
+                  AI and creative problem-solving
                 </p>
               </div>
             </div>
