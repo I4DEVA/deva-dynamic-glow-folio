@@ -30,8 +30,12 @@ const Hero: React.FC = () => {
           <div className="relative mb-8 inline-block">
             <div className="w-48 h-48 mx-auto relative group">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-300" />
-              <div className="relative w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-6xl font-bold text-white shadow-2xl transform group-hover:scale-105 transition-transform duration-300">
-                D
+              <div className="relative w-full h-full rounded-full overflow-hidden shadow-2xl transform group-hover:scale-105 transition-transform duration-300">
+                <img 
+                  src="/lovable-uploads/f9291e1b-a331-40ad-aaa3-99926ecc76a8.png" 
+                  alt="Deva Narayan" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
